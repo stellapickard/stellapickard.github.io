@@ -1,0 +1,195 @@
+@import url(https://fonts.googleapis.com/css?family=Special+Elite);
+@import url(https://fonts.googleapis.com/css?family=Kanit:100);
+
+body {
+	padding: 10px; 
+	font-family: Kanit;
+	color: #454343;
+	font-size: 18px; 
+}
+
+/*Color Palette
+
+black #454343
+coral #f65f5f
+turquoise #59edd3
+limegreen #dcf74a*/
+
+.name {
+	font-family: Special Elite;
+	font-size: 34px; 
+	text-align: center; 
+	padding-top: 35px; 
+	padding-bottom: 15px; 
+	letter-spacing: 5px;
+}
+
+.topcontent {
+	max-width: 1170px; 
+	margin-top: -2px; 
+	background-color: #fff; 
+}
+
+.tabtext {
+	font-family: Special Elite; 
+	font-size: 16px;  
+}
+
+.tabcontents {
+	color: #454343;
+	padding-left: 10px; 
+	padding-right: 10px; 
+	background-color: #fff;
+}
+
+.tabcontents:hover {
+	text-decoration: none;
+	color: #59edd3;
+}
+
+.active {
+	background-color: black; 
+	color: #59edd3; 
+	padding-top: 17px; 
+	padding-bottom: 6px; 
+	border-bottom-left-radius: 4px; 
+	border-bottom-right-radius: 4px; 
+}
+
+.blurbtext { 
+	font-size: 16px; 
+	text-align: justify;
+}
+.meblurb {
+	padding-top: 75px; 
+}
+
+.hello {
+	font-family: Special Elite;
+	font-size: 54px; 
+}
+
+.me {
+	background-image: url("./images/sailor.jpg");
+	background-repeat: no-repeat;
+	background-size: 175px 175px;
+	width: 175px;
+	height: 175px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	float: right;
+    margin: 0px 0px 20px 15px;
+}
+
+.me:hover {
+	background-image: url("./images/viking.jpg");
+	background-repeat: no-repeat;
+	background-size: 175px 175px;
+	width: 175px;
+	height: 175px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	float: right;
+    margin: 0px 0px 20px 15px;
+    transition: 0.2s;
+
+}
+
+.logo {
+	max-width: 300px; 
+	margin: auto;
+	text-align: center;
+	/*margin-left: 150px;*/
+}
+
+@media (min-width: 786px) {
+.dirtdivalogo {
+	padding-left: 65px;
+}
+}
+
+.logo-img {
+	text-align: center;
+}
+
+.projectname {
+	text-align: center; 
+	line-height: 4px; 
+	padding-top: 60px; 
+	max-height: 200px
+}
+
+.projectdetails {
+	font-family: Special Elite; 
+	color: #454343;
+}
+
+/*Look at how I can make the code below more economic*/
+
+.bloemhof {
+	padding-top: 20px; 
+}
+
+.dirtdiva {
+	padding-top: 20px; 
+}
+
+.videorow {
+	padding-top: 18px; 
+}
+
+.mtb {
+	padding-left: 25px; 
+	padding-right: 25px; 
+}
+
+.mtbtext { 
+	font-family: Special Elite;	
+	text-align: justify;
+}
+
+.linktext {
+	color: #f65f5f;
+}
+
+.linktext:hover {
+	text-decoration: none !important;
+}
+
+.whatsbetter {
+	font-size: 27px; 
+	text-align: left;
+}
+
+.facebookvideo {
+	padding-top: 5px; 
+	padding-left: 2px; 
+	padding-right: 0px; 
+	border: 2px solid #454343; 
+	background-color: #dcf74a;
+	border-radius: 3px; 
+
+}
+
+.peeblesvideo {
+	align: center; 
+	max-height: 321px;
+	max-width: 581px;
+	 
+	/*border: 2px solid #454343; 
+	background-color: #dcf74a;
+	border-radius: 3px; 315 560 */
+}
+
+.socialmedia {
+	padding-top: 40px; 
+}
+
+.socialmedia img {
+	max-height: 40px;
+	max-width: 30px; 
+}
+
+
