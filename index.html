@@ -1,202 +1,163 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Stella Pickard</title>
-	 	<!-- Latest compiled and minified CSS -->
+	<title> Stellafied! </title>
+	<link rel="icon" type="image/gif" href="./images/s1.gif">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<link rel="stylesheet" type= "text/css" href="./stellapickard_stylesheet.css">
-	<link rel="icon" href="./images/viking.jpg"
-	<!-- Facebook Open Graph Tags -->
-	<meta property="og:url"                content="http://stellapickard.github.io/" />
-	<meta property="og:type"               content="Stella Pickard personal website" />
-	<meta property="og:title"              content="The adventures of Stella Pickard" />
-	<meta property="og:description"        content="personal and career portfolio"/>
-	<meta property="og:image"              content="./images/sailor.jpg"/>
-
+	<link rel="stylesheet" type="text/css" href="css/ixcss.css"/>
+	
+	<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+	<script src="script.js"></script>
 </head>
-
 <body>
- 			<!-- Load Facebook SDK for JavaScript -->
-	  <div id="fb-root"></div>
-	  <script>(function(d, s, id) {
-	    var js, fjs = d.getElementsByTagName(s)[0];
-	    if (d.getElementById(id)) return;
-	    js = d.createElement(s); js.id = id;
-	    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
-	    fjs.parentNode.insertBefore(js, fjs);
-	  }(document, 'script', 'facebook-jssdk'));</script>
 
- <!-- add navbar-fixed-top class to topcontent div when I can do the scrollspy -->
-<div class="container">
- 	<div class="row col-md-12 topcontent nameheader">
- 		<p class="name"> stella pickard </p>
- 	</div>
-
- 	<div class="row navigation col-md-12">
- 		<ul class="list-inline nav-tabs tabtext ">
-  			<li><a class="tabcontents active" href="#">stella</a></li>
-  			<li><a class="tabcontents" href="#myprojects">projects</a></li>
-  			<li><a class="tabcontents" href="#myeducation">education</a></li>
-  			<li><a class="tabcontents" href="#myskills">skills</a></li>
-  			<li><a class="tabcontents" href="#mycauses">causes</a></li>
-  			<li><a class="tabcontents" href="#mysayhello">say hello!</a></li>
-		</ul>
- </div>
+	<header class = "helloworld"> &bull; S T E L L A &ensp; P I C K A R D &bull; <br>
+		<span class="trail"> web developer | lawyer | opportunist </span> 
+		<header class = "hellophone"> S T E L L A <br> P I C K A R D <br>
+		<span class="phone_trail"> web developer | lawyer | opportunist </span> </header>
+	</header>
 
 
- 	<div class="row meblurb col-md-8 col-md-offset-2">
- 			<p class="blurbtext"> <span class="hello"> hello </span> and thank you for visiting!! [NOT MY TEXT] I’m a web designer and developer—what some might call a designerd. I spend most of my time coding user interfaces and handing off compliant and pixel-perfect templates for engineers to flesh out with backend functionality. Sometimes I get to create beautiful designs prior to implementing them and sometimes I do logo and branding work that require no coding at all. Whatever the case is, the goal is to create an awesome web experience.</p>
+<!-- TOP ROW --> 
+	<div class="container_row">
 
-			<p class="blurbtext">Outside of work, I’m an introverted yet strongly opinionated nerd. Things I enjoy include interior design, Bea Arthur ice cream cone from Big Gay Ice Cream Shop in the East Village, my home-made Saturday morning waffles, and cuddling with my clingy cat Toby and my hyperactive dog Butters while binge watching TV shows with Ian. Things I dislikes include the entire winter and summer seasons, waking up early, and IPA's.</p>
-
-			<p> <!-- <img class="me" src="./images/viking.jpg"/> --> <div class="me"></div>
-			<span class="blurbtext"> I studied music performance at Carnegie Mellon University, then took up wood working, began a masters in Design + Technology at Parsons, and now I design and code for a living and for fun. I keep busy and I get things done. Check out my portfolio , and my resume to learn more about what I do. - Cheers!! </span> </p>
-			
- 		
- 	</div>
-
- 	<div class="row navigation col-md-12">
- 			<ul class="list-inline nav-tabs tabtext ">
-  				<li class="tabcontents active">projects</a></li>
- 			</ul>
- 		</div>
-
- 	<div class="row projects" id="myprojects">
-
- 		<div class="row bloemhof">
- 			<div class="col-xs-12 col-sm-3 col-sm-offset-2 logo-img">
- 				<a href="http://www.bloemhof-karoo.co.za/"> <img class="logo" src="./images/bloemhoflogo.png"/> </a>
- 			</div>
- 			<div class="col-xs-12 col-sm-3 col-sm-offset-2 projectname">
- 				<p class="projectdetails"> PROJECT DETAILS </p><br>
- 				<p> Bloemhof Karoo </p><br>
- 				<p> Guest House </p><br>
- 				<p> make mobile responsive</p>
- 			</div>
- 		</div>
-
- 		<div class="row dirtdiva">
- 			<div class="col-xs-12 col-sm-3 col-sm-offset-2 logo-img">
- 				<a href="http://dirt-diva.com/"> <img class="logo dirtdivalogo" src="./images/dirtdivalogo.jpg"/></a>
- 			</div>
- 			<div class="col-xs-12 col-sm-3 col-sm-offset-2 projectname">
- 				<p class="projectdetails"> PROJECT DETAILS </p><br>
- 				<p> dirt diva </p><br>
- 				<p> cycling brand &amp community </p> <br>
- 				<p> design and build website</p>
- 			</div>
- 		</div>
-
- 		<!-- PLACEHOLDER FOR FURTHER PROJECTS <div class="row bloemhof">
- 			<div class="col-xs-12 col-sm-3 col-sm-offset-2 logo-img">
- 				<a href="http://www.bloemhof-karoo.co.za/"> <img class="logo" src="./images/bloemhoflogo.png"/> </a>
- 			</div>
- 			<div class="col-xs-12 col-sm-3 col-sm-offset-2 projectname">
- 				<p class="projectdetails"> PROJECT DETAILS </p><br>
- 				<p> Bloemhof Karoo </p><br>
- 				<p> Guest House </p><br>
- 				<p> to make mobile responsive</p>
- 			</div>
- 		</div>
-
- 		<div class="row dirtdiva">
- 			<div class="col-xs-12 col-sm-3 col-sm-offset-2 logo-img">
- 				<a href="http://dirt-diva.com/"> <img class="logo dirtdivalogo" src="./images/dirtdivalogo.jpg"/></a>
- 			</div>
- 			<div class="col-xs-12 col-sm-3 col-sm-offset-2 projectname">
- 				<p class="projectdetails"> PROJECT DETAILS </p><br>
- 				<p> dirt diva </p><br>
- 				<p> cycling brand &amp community </p> <br>
- 				<p> design and build</p>
- 			</div>
- 		</div> -->
- 		
- 	</div>
-
- 	<div class="row navigation col-md-12">
- 			<ul class="list-inline nav-tabs tabtext ">
-  				<li class="tabcontents active">education</a></li>
- 			</ul>
- 		</div>
-
- 	<div class="row education" id="myeducation">
- 		<div class="row unischool">
- 			<div class="col-xs-12 col-sm-3 col-sm-offset-2">
- 				 <p class="edutext"> University of Stellenbosch </p> <br>
- 			</div>
- 			<div class="col-xs-12 col-sm-3 col-sm-offset-2">
- 				 <p> Stellenbosch, South Africa </p> 
- 				 <p> B.Comm .LLB </p> 
- 				 <p> Graduated 2008 </p>
- 			</div>
- 		</div>
-
- 		<div class="row unischool">
- 			<div class="col-xs-12 col-sm-3 col-sm-offset-2">
- 				<p class="edutext"> Outeniqua High School</p>
- 			</div>
- 			<div class="col-xs-12 col-sm-3 col-sm-offset-2">
- 				<p> George, South Africa </p>
- 				<p> Matriculated 2003 </p>
- 			</div>
- 		</div>
-
-
-
- 	</div>
-
-
- 	<div class="row skills" id="myskills">
- 		
- 	<div class="sectionheader col-md-12">
- 			<ul class="list-inline nav-tabs tabtext ">
-  				<li class="tabcontents active">skills</a></li>
- 			</ul>
- 		</div>
-
- 	</div> 
-
-
- 	<div class="row causes" id="mycauses">
- 		
- 	 	<div class="sectionheader col-md-12">
- 			<ul class="list-inline nav-tabs tabtext ">
-  				<li class="tabcontents active">causes</a></li>
- 			</ul>
- 		</div>
-
- 		<div class="row col-sm-12 videorow">
- 			<div class="col-sm-6 mtb"> 
- 				<p class="mtbtext"> <span class="whatsbetter"> What's better than mountainbiking? <br></span> Mid-week mountainbiking! I started mountainbiking in 2013 and I've been a <a class="linktext" href="http://www.singletracks.com/mountain-bike/trails.php"><span class="linktext">trail junkie</span></a> ever since. I even worked in a bike shop for 3 weeks to learn how to fix my own bike. Here's a video of me, riding Glentress Forest's trails in Peebles, Scotland recently. I've started my own female cycling clothing brand for women, dirt diva, which I sell online on a <a class="linktext" href="http://dirt-diva.com/"><span class="linktext"> website </span></a> I designed myself. I'm determined to get more women out on the trails! So far, I'm succeeding. Recently, I started writing a column for <a class="linktext" href=""http://fullsus.co.za/madsie-ons-is-trots-op-jou"><span class="linktext"> FullSuss </span></a> - a monthly mountainbike paper read by 45000 riders and I also have my own <a class="linktext" href="https://dirtdivablog.wordpress.com/"><span class="linktext"> blog </span></a> in which I share my mountainbiking adventures. Happy ridin' chicas! </p>
- 			</div>
-
- 			<div class="col-sm-6 facebookvideo"> 
-	  			<!-- Your embedded video player code -->
-	  			<iframe class="peeblesvideo" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FStellasquido%2Fvideos%2F1688672421395331%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true" ></iframe>
+	<!-- NO SWAP OUT -->
+		<div class= "col-md-3">
+			<div class="who">
+				<br>
+				<!-- <span class="header">HELLO... </span> <br> -->
+				<p class="par intro">
+				<span class="hello"> HELLO... </span> and thank you for visiting!! I'm a webdesignerd - a web designer &amp; web developer. I spend my time building projects (for myself &amp; others) while constantly learning to improve my existing skillset. I live for beautiful designs with great functionality. Outside of work, I am an introverted yet strongly opinionated nerd who loves the outdoors. Things I enjoy are mountainbiking, Jan's homemade breakfasts, trail runs, good coffee and spanish culture. Things I dislike include winter, waking up early and packing for weekend trips. Packing for holidays is fine. I studied law at the University of Stellenbosch. About a year ago I started building static websites for fun...then for other people too. I enjoy having the ability to create things that are both functional and look pretty, with code. Check out my portfolio, and my <span><a class ="resume" href="./resume.pdf"> resum&eacute; </a></span> - cheers!!
+				</p>
 			</div>
- 		</div>
+		</div>
 
- 		<div class="row col-xs-3 col-xs-offset-5 socialmedia"> 
- 			<a href="https://www.facebook.com/Stellasquido/"><img src="./images/facebook.png"/></a>
- 			<a href="https://www.instagram.com/hellodirtdiva/"><img src="./images/instagram.png"/></a>
- 			<a href="https://twitter.com/hellodirtdiva"><img src="./images/twitter.png"/></a>
- 		</div>
+<!-- ================== -->
 
- 	</div>
+	
+		<div class= "col-md-3 cards">
+			<!-- BASE BOX -->
+			<div class="base_layer">
+				<img class="pic" src="images/camber.jpg"/>
+			</div>
+			
+			<!-- HOVER BOX ME -->
+			<div class="hover_box">
+				<div class="text_divs">
+					<br>
+					<span class="header"> PERSONAL GOALS </span><br><br>
+					keep moving <br>
+					always learn &amp; grow <br>
+					be kind <br>
+					be productive, not busy <br>
+					help &amp; give where you can <br>
+				</div>
+			</div>
+		</div>
 
- 	<div class="sayhello" id="mysayhello">
- 		
- 		<div class="sectionheader col-md-12">
- 			<ul class="list-inline nav-tabs tabtext ">
-  				<li class="tabcontents active">say hello!</a></li>
- 			</ul>
- 		</div>
+	
+		
+<!-- =================== -->
 
- 	</div>
+		<!-- NO SWAP OUT -->
 
- 	<div class="row footer"></div>
- 	
- </div>
+		<div class= "col-md-3 cards">
+			<div class="project_portfolio">
+				<br>
+				<span class="header">  PROJECT PORTFOLIO  </span> <br> <br>
+				<strong> Bloemhof Karoo </strong><br>
+				<a href="http://www.bloemhof-karoo.co.za">www.bloemhof-karoo.co.za </a><br>
+				<p class="projects"> Rebuilt site to make it mobile responsive</p>
+				<strong> dirt diva </strong><br>
+				<a href="http://www.dirt-diva.com">www.dirt-diva.com </a><br>
+				<p class="projects"> Designed &amp; built website </p>
+				<strong> Personal Projects </strong><br>
+				<a href="https://github.com/stellapickard"> View GitHub account </a>
+				<p class="projects"> Includes projects using API's for basic integrations, websites for: a wedding invite, law firm, mobile beautician.</p> 
+			</div>
+		</div>
 
-</body>
-</html>
+<!-- ========================= -->
+<!-- 	BASE BOX  -->
+		<div class= "col-md-3 cards">
+			<div class="base_layer">
+				<img class="pic" src="images/motivation.jpg"/>
+			</div>
+<!-- 	HOVER BOX -->
+			<div class="hover_box">
+				<img class="pic" src="images/fierce.png"/>
+			</div>
+		</div>
+
+<!-- ====================== -->
+
+<!-- BOTTOM ROW -->
+
+	<div class="container_row">
+
+	<div class= "col-md-3 cards">
+		<div class="base_layer">
+			<img class="pic" src="images/coffee1.png"/> 
+		</div>
+		<div class="hover_box">
+			<img class="pic" src="./images/yourself.jpg"/> 
+		</div>
+	</div>
+
+		<div class= "col-md-3 cards text_divs">
+			<div>
+				<br>
+				<span class="header"> SKILLS </span><br>
+				<p class="par"> <br><br>
+				HTML5 <br>
+				CSS3 <br>
+				Bootstrap <br>
+				Responsive Web Design (check this one!)<br>
+				Javascript<br>
+				jQuery<br>
+				AngularJS <br>
+				Git<br><br>
+
+				<a href="./resume.pdf" class="resume">&bull; resum&eacute; &bull;</a>
+				</p>	
+			</div>
+		</div>
+
+		<div class= "col-md-3 cards">
+			<div class="base_layer">
+				<img class="pic" src="images/husband.jpg"/>
+			</div>
+			<div class="hover_box">
+				<br>
+				<span class="header"> THINGS I LIKE...&amp; &hearts; </span>
+				<p class="par"></p> <br><br>
+				mountainbiking <br>
+				Jan Pickard <br>
+				coffee <br>
+				outdoor adventures <br>
+				cooking... &amp; food <br>
+				coding &amp; design <br>
+				spanish culture</p>	
+			</div>
+		</div>
+
+		<div class= "col-md-3">
+			<div class="text_divs">
+				<br>
+				<span class="header"> SAY HELLO! </span>
+				<p class="par"></p> <br><br> e: <a href="mailto:stella@pickard.co.za">stella@pickard.co.za</a><br>
+					c: +27 72 400 5923 <br>
+					s: estelle.truter <br>
+					w: stellapickard.github.io <br>
+			</div>
+		</div>
+
+
+
+
+	</div>
+
+
+
+	</body>
+	</html>
