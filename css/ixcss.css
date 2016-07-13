@@ -37,8 +37,8 @@ body {
 }
 
 @media (max-width: 768px){
-	.trail {
-		font-size: 14px;
+	.trailphone {
+		font-size: 12px;
 	}
 }
 
