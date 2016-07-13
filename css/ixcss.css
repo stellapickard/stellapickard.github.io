@@ -25,6 +25,12 @@ body {
 	}
 }
 
+.cards {
+	max-height: 362px;
+	max-width: 362px;
+	margin: auto;
+}
+
 .trail {
 	font-size: 18px;
 }

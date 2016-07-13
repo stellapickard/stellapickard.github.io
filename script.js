@@ -12,15 +12,18 @@ $(document).ready(function(){
 	});
 
 
+	// $('.cards').onclick(function(){
+	// 	if ($(this).('.base_layer') = 'block'){
+	// 		$.(this).('base_layer').css('display', 'none');
+	// 		$.(this).('hover_box').css('display', 'block');
+	// 	} else if ($(this).('base_layer') = 'none'){
+	// 		$.(this).('.base_layer').css('display', 'block');
+	// 		$.(this).('.hover_box').css('display', 'none');
+	// 		};
+	// 	};
+
 
 });
 
 
 
-		// $('.default_display').mouseover(function(){
-		// $(this).find('.hover_display').css('display','block');
-		// });
-
-		// $('.default_display').mouseout(function(){
-		// 	$(this).find('.hover_display').css('display','none');
-		// });
