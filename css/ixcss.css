@@ -9,48 +9,30 @@ body {
 	font-family: Raleway:500;
 }
 
-.helloworld {
+a:hover {
+	color: #f65f5f;
+	text-decoration: none;
+}
+
+.hellodesktop {
+	visibility: visible;
 	font-family: Raleway Dots; 
 	font-size: 28px;
 	font-weight: bold;
 	padding-top: 15px; 
 	padding-bottom: 30px; 
-	letter-spacing: 2px;
-	visibility: visible; 
+	letter-spacing: 2px; 
 	max-height: 105px;
 }
 
-
-@media (max-width: 768px){
-	.helloworld {
-		visibility: hidden;
-	}
-}
-
-.cards {
-	margin: auto;
-	padding-left: 0px;
-	padding-right: 0px;
-}
-
-.trailworld {
-	font-size: 18px;
-}
-
-@media (max-width: 768px){
-	.trailphone {
-		font-size: 12px;
-	}
-}
-
 .hellophone {
+	visibility: hidden; 
 	font-family: Raleway Dots; 
 	font-size: 26px;
 	font-weight: bold;
 	padding-top: 30px; 
 	padding-bottom: 15px; 
 	letter-spacing: 2px;
-	visibility: hidden; 
 	top: 0px;
 	position: fixed;
 	text-align: center;
@@ -60,24 +42,69 @@ body {
 	margin: auto;
 }
 
+.traildesktop {
+	font-size: 18px;
+}
+
+.trailphone {
+	font-size: 16px;
+}
+
 @media (max-width: 768px){
+	.hellowdesktop {
+		visibility: hidden;
+	}
 	.hellophone {
 		visibility: visible;
 	}
-}
+	.trailphone {
+		font-size: 12px;
+	}
 
-.phone_trail {
-	font-size: 16px;
+	/*watch this space*/
+	.intro {
+		padding-top: 35px; 
+	}
+	.who {
+		padding-top: 35px;
+	}
 }
 
 .container_row {
 	position: relative;
 }
 
-@media (max-width: 768px){
-	.who {
-		padding-top: 35px;
-	}
+.base_layer {
+	display: block;
+	margin: auto;
+	padding-top: 20px;
+
+}
+
+.hover_box {
+	display: none;
+	margin: auto;
+	padding-top: 20px;
+}
+
+.cards {
+	margin: auto;
+	max-width: 362px;
+	max-height: 362px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.no-flip-card {
+	padding-top: 20px;
+}
+
+.pic {
+	width: 100%; 
+	height: auto;
+	border-color: white; 
+	border-style: solid; 
+	border-width: 5px; 
 }
 
 .headings {
@@ -96,37 +123,32 @@ body {
 .intro {
 	text-align: justify;
 	font-size: 13px;
-	padding: 5px; 
+	padding-left: 25px; 
+	padding-right: 10px;
 }
 
-@media (max-width: 768px){
+@media (max-width: 1349px) {
+  .intro {font-size: 12px;}
+}
+
+@media (max-width: 1270px) {
+  .intro {font-size: 11px;}
+}
+
+@media (max-width: 1160px) {
+  .intro {font-size: 10px;}
+}
+
+@media (max-width: 1100px) {
+  .intro {font-size: 9px;}
+}
+
+@media (max-width: 991px) {
 	.intro {
-		padding-top: 35px; 
-	}
-}
-
-a:hover {
-	color: #f65f5f;
-	text-decoration: none;
-}
-
-.base_layer {
-	display: block;
-	margin: auto;
-}
-
-.hover_box {
-	display: none;
-	margin: auto;
-	padding-top: 20px;
-}
-
-.pic {
-	width: 100%; 
-	height: auto;
-	border-color: white; 
-	border-style: solid; 
-	border-width: 5px; 
+		font-size: 14px;
+		padding-left: 10px;
+		padding-right: 10px;
+		}
 }
 
 .resume {
