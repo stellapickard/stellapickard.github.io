@@ -28,14 +28,12 @@ body {
 }
 
 .cards {
-	max-height: 362px;
-	max-width: 362px;
 	margin: auto;
 	padding-left: 0px;
 	padding-right: 0px;
 }
 
-.trail {
+.trailworld {
 	font-size: 18px;
 }
 
@@ -82,7 +80,7 @@ body {
 	}
 }
 
-.header {
+.headings {
 	font-family: Raleway Dots;  
 	font-size: 24px; 
 	font-weight: bold;
@@ -92,6 +90,7 @@ body {
 	font-weight: bold;
 	font-size: 28px;
 	font-family: Raleway Dots;
+	padding-top: 20px;
 }
 
 .intro {
@@ -113,16 +112,13 @@ a:hover {
 
 .base_layer {
 	display: block;
-/*	max-width: 362px;
-	max-width: 362px;*/
 	margin: auto;
 }
 
 .hover_box {
 	display: none;
-/*	max-height: 362px;
-	max-width: 362px;*/
 	margin: auto;
+	padding-top: 20px;
 }
 
 .pic {
