@@ -25,6 +25,10 @@ a:hover {
 	max-height: 105px;
 }
 
+.hover_box {
+ 	position: abosolute;
+}
+
 .hellophone {
 	visibility: hidden; 
 	font-family: Raleway Dots; 
@@ -60,13 +64,8 @@ a:hover {
 	.trailphone {
 		font-size: 12px;
 	}
-
-	/*watch this space*/
 	.intro {
 		padding-top: 35px; 
-	}
-	.who {
-		padding-top: 35px;
 	}
 }
 
@@ -85,6 +84,8 @@ a:hover {
 	display: none;
 	margin: auto;
 	padding-top: 20px;
+	height: 362px;
+	width: 362px; 
 }
 
 .cards {
@@ -149,6 +150,10 @@ a:hover {
 		padding-left: 10px;
 		padding-right: 10px;
 		}
+}
+
+.hover_box {
+	background-color: #fff;
 }
 
 .resume {
