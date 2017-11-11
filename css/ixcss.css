@@ -6,6 +6,7 @@ body {
 	background-color: #f9f9f9;
 	text-align: center;
 	font-size: 14px;
+	font-family: Raleway:500;
 }
 
 .helloworld {
@@ -30,6 +31,8 @@ body {
 	max-height: 362px;
 	max-width: 362px;
 	margin: auto;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .trail {
@@ -94,11 +97,13 @@ body {
 .intro {
 	text-align: justify;
 	font-size: 13px;
+	padding: 5px; 
 }
 
-.cards {
-	padding-left: 0px;
-	padding-right: 0px;
+@media (max-width: 768px){
+	.intro {
+		padding-top: 35px; 
+	}
 }
 
 a:hover {
@@ -108,32 +113,21 @@ a:hover {
 
 .base_layer {
 	display: block;
+/*	max-width: 362px;
+	max-width: 362px;*/
+	margin: auto;
 }
 
 .hover_box {
 	display: none;
-	height: 362px;
-	width: 362px;
-	background-color: white;
+/*	max-height: 362px;
+	max-width: 362px;*/
 	margin: auto;
 }
 
-.text_divs {
-	padding-bottom: 40px;
-}
-
-.par {
-	font-family: Raleway:500; 
-}
-
-.who {
-	padding-left: 5px;
-	padding-right: 5px;
-}
-
 .pic {
-	width: 362px; 
-	height: 362px;
+	width: 100%; 
+	height: auto;
 	border-color: white; 
 	border-style: solid; 
 	border-width: 5px; 
