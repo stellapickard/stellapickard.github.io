@@ -93,7 +93,20 @@ a:hover {
 }
 
 .no-flip-card {
-	padding-top: 20px;
+/*	padding-top: 20px;*/
+	margin-top: 20px;
+}
+
+.yourself-card {
+	padding-top: 20px !important;
+}
+
+.project-card {
+	padding-top: 0px !important;
+}
+.white-cards {
+	background-color: #fff;
+	margin-top: 20px;
 }
 
 .pic {
@@ -123,6 +136,8 @@ a:hover {
 	padding-left: 25px; 
 	padding-right: 10px;
 }
+
+/*shrinks text with screen size*/
 
 @media (max-width: 1349px) {
   .intro {font-size: 12px;}
