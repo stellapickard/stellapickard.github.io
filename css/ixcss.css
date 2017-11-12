@@ -25,10 +25,6 @@ a:hover {
 	max-height: 105px;
 }
 
-.hover_box {
- 	position: abosolute;
-}
-
 .hellophone {
 	visibility: hidden; 
 	font-family: Raleway Dots; 
@@ -77,15 +73,15 @@ a:hover {
 	display: block;
 	margin: auto;
 	padding-top: 20px;
-
 }
 
 .hover_box {
 	display: none;
 	margin: auto;
-	padding-top: 20px;
 	height: 362px;
 	width: 362px; 
+	position: absolute;
+	padding-top: 20px;
 }
 
 .cards {
@@ -150,10 +146,6 @@ a:hover {
 		padding-left: 10px;
 		padding-right: 10px;
 		}
-}
-
-.hover_box {
-	background-color: #fff;
 }
 
 .resume {
